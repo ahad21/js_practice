@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script practice</title>
+</head>
+
+<body>
+    <script>
+        var marks = 33;
+        switch (true) {
+            case (marks >= 80 && marks <= 100):
+                document.write("Your Grade is A+")
+                break;
+            case (marks < 80 && marks >= 70):
+                document.write("Your Grade is A")
+                break;
+            case (marks < 70 && marks >= 60):
+                document.write("Your Grade is A-")
+                break;
+
+            case (marks < 60 && marks >= 50):
+                document.write("Your Grade is B")
+                break;
+            case (marks < 50 && marks >= 40):
+                document.write("Your Grade is C")
+                break;
+            case (marks < 40 && marks >= 33):
+                document.write("Your Grade is D")
+                break;
+            default:
+                document.write("You are Failed")
+
+        }
+    </script>
+</body>
+
+</html>
