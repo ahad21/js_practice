@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<button onclick="objAlert()">Click Alert</button>
+<br>
+<button onclick="objConfirm()">Click Confirm</button>
+<br>
+<button onclick="objPromt()">Click Promt</button>
+<br>
+
+<button onclick="objOpen()">Click Open</button>
+<br>
+<button onclick="objClose()">Click Close</button>
+<br>
+<script>
+    function objAlert() {
+        alert("Save Successfull");
+    }
+
+    function objConfirm() {
+        let reult = confirm("Do you want to delete");
+        document.write(reult);
+    }
+
+    function objPromt() {
+        let name = prompt("Write your name");
+        document.write(name);
+    }
+
+    function objOpen() {
+        open()
+
+    }
+
+    function objClose() {
+        close()
+    }
+</script>
+
+</body>
+
+</html>

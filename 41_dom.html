@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="name-id"> My name is Ahad</h1>
+
+    <h2 class ="my-class"> Its a h2 class</h2>
+    <h3 class ="my-class"> Its a h3 class</h3>
+
+    <h4 name ="my-name"> Its a h4 class</h4>
+
+    <p>Its a P1 Tag</p>
+    <p>Its a P2 Tag</p>
+
+    <script>
+        var myElement = document.getElementById('name-id');
+        myElement.innerHTML = "Eid Mubarak";
+
+        var clasNames = document.getElementsByClassName('my-class');
+        clasNames[0].innerHTML="Hello, How are you?"
+        
+        var myname = document.getElementsByName('my-name');
+        myname[0].innerHTML="Search by name element h4"
+
+        var myTag = document.getElementsByTagName('p');
+        myTag[0].innerHTML = "Its a Tag Manipulation for P1";
+
+ 
+
+
+    </script>
+</body>
+
+</html>
